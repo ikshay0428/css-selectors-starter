@@ -435,7 +435,7 @@ input, select {
 */
 /* ----- */
 input:focus { 
-    outline: 4px solid var(--orange);
+    outline: 4px solid var(--dv-dk-blue);
     outline-offset: 2px;
     border: none;
 }
@@ -446,9 +446,10 @@ input:focus {
     select all of the inputs on focus (by tag name/pseudo-class) on the page
 */
 /* ----- */
-input:focus {
-    outline-color: var(--dv-dk-blue);
-}
+input:focus { 
+    outline: 4px solid var(--dv-dk-blue);
+    outline-offset: 2px;
+    border: none;
 
 /* ----- */
 /* 
@@ -586,7 +587,7 @@ input[type="submit"]:focus {
     select the last list item in the list styling container using the ID, tag name, and pseudo-class selectors
 */
 /* ----- */
-#list-styling li:last child {
+#list-styling li:last-child {
     color: var(--dv-lt-blue);
 }
 
@@ -865,7 +866,7 @@ td {
     select the fourth div in the pseudo-class styling section using the ID, tag name, descendant, and class selectors
 */
 /* ----- */
-#pseudo-class-styling div.fourth {
+#border-styles div.fourth {
     width: 150px;
     height: 150px;
     border: 6px double var(--dv-mint);
