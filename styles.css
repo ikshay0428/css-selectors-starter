@@ -8,7 +8,7 @@
 /* ------------------------------------ */
 
 /* The root element is where we create variables for our file */
-:root{
+:root {
     /* Basic Theme Colors */
     --red: #bf3636;
     --orange: #d04936;
@@ -67,7 +67,7 @@
     add the universal CSS selector to the styles below
 */
 /* ----- */
-{
+* {
     font-family: var(--fonts);
     line-height: 1.3;
     color: var(--dk-gray);
@@ -434,7 +434,7 @@ input, select {
     select all of the inputs on focus (by tag name/pseudo-class) on the page
 */
 /* ----- */
-input:focus{
+input:focus { 
     outline: 4px solid var(--orange);
     outline-offset: 2px;
     border: none;
@@ -446,7 +446,7 @@ input:focus{
     select all of the inputs on focus (by tag name/pseudo-class) on the page
 */
 /* ----- */
-{
+input:focus {
     outline-color: var(--dv-dk-blue);
 }
 
