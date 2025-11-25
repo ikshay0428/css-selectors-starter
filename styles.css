@@ -811,7 +811,7 @@ td {
     select all of the divs in the border styling section using the ID, descendant, and tag name selectors
 */
 /* ----- */
-#borders div {
+#css-borders > div {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -823,7 +823,7 @@ td {
     select the first div in the border styling section using the ID, tag name and direct descendant selectors
   */
   /* ----- */
-#borders > div:first-child {
+#css-borders > div:first-child {
     width: 300px;
     height: 300px;
     margin: 16px auto;
@@ -836,7 +836,7 @@ td {
     select the second div in the border styling section using the ID, descendant, and tag name selectors
 */
 /* ----- */
-#borders div:nth-child(2) {
+#css-borders div:nth-child(2) {
     width: 250px;
     height: 250px;
     border: 6px dotted var(--dv-orange);
@@ -848,7 +848,7 @@ td {
     select the third div in the border styling section using the ID, descendant, and class name selectors
 */
 /* ----- */
-#borders .third {
+#css-borders .third {
     width: 200px;
     height: 200px;
     border: 6px dashed var(--dv-yellow);
@@ -860,7 +860,7 @@ td {
     select the fourth div in the pseudo-class styling section using the ID, tag name, descendant, and class selectors
 */
 /* ----- */
-#borders div.fourth {
+#css-borders div.fourth {
     width: 150px;
     height: 150px;
     border: 6px double var(--dv-mint);
@@ -872,7 +872,7 @@ td {
     select the last div in the more styling section using the ID, tag name, descendant, and class selectors
 */
 /* ----- */
-#borders div.last {
+#css-borders div.last {
     width: 100px;
     height: 100px;
     border: 6px inset var(--dv-lt-blue);
@@ -887,7 +887,7 @@ td {
     select the pseudo-elements section using the ID selector
 */
 /* ----- */
-#pseudo-elements {
+#css-pseudo {
     position: relative;
 }
 
@@ -897,7 +897,7 @@ td {
     select the div in the pseudo-elements section using the ID, child/descendant, and tag name selectors
 */
 /* ----- */
-#pseudo-elements div {
+#css-pseudo div {
     width: 275px;
     height: 275px;
     margin: 56px auto 32px;
@@ -912,7 +912,7 @@ td {
     select the div's before element in the pseudo-elements section using the ID, child/descendant, pseudo-element, and tag name selectors
 */
 /* ----- */
-#pseudo-elements div:before {
+#css-pseudo div:before {
     content: "\2730";
     padding: 12px 24px;
     border-radius: 50%;
@@ -932,7 +932,7 @@ td {
     select the image in the pseudo-elements section using the ID, child/descendant, and tag name selectors
 */
 /* ----- */
-#pseudo-elements img {
+#css-pseudo img {
     width: 200px;
     height: 200px;
     margin: 0 auto;
